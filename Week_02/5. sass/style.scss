@@ -1,0 +1,35 @@
+$width: 300px;
+$primary-color: coral;
+
+@mixin italic-bold {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.movie-card {
+    width: $width;
+    box-shadow: 1px 1px 5px lightgray;
+    border-radius: 15px;
+    overflow: hidden;
+
+    img {
+        width: $width;
+    }
+
+    .movie-info {
+        padding: 10px;
+
+        h2 {
+            color: $primary-color;
+        }
+
+        p {
+            @include italic-bold();
+        }
+    
+        button {
+            background: $primary-color;
+            color: white;
+        }
+    }
+}
