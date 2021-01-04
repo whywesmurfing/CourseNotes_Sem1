@@ -21,8 +21,8 @@ class ListView
   end
 
   def get_item
-    print "Enter the list item:\n "
-    input = gets.chomp
+    print "Enter the list item:\n"
+    input = gets
     return input
   end
 
