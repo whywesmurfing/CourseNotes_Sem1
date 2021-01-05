@@ -56,4 +56,8 @@ class ListView
     print "That is not a valid option. Please choose 1-5\n"
   end
 
+  def logout
+    
+  end
+
 end
