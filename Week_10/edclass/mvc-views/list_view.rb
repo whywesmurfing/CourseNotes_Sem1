@@ -28,8 +28,8 @@ class ListView
 
   def get_delete_choice
     print "Select the entry by number to delete:"
-    
     input = gets.to_i
+    return input
   end
 
   def get_category
@@ -54,10 +54,6 @@ class ListView
 
   def invalid_input
     print "That is not a valid option. Please choose 1-5\n"
-  end
-
-  def logout
-    
   end
 
 end
